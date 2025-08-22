@@ -1,0 +1,3 @@
+-- Example: Import CSV into a table
+-- Run in psql:
+-- \COPY products(name, price) FROM 'products.csv' DELIMITER ',' CSV HEADER;
